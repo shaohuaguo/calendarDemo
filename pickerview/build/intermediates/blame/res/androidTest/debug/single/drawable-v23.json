@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/lemon_shaohua/pickerview/build/intermediates/res/merged/androidTest/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/lemon_shaohua/pickerview/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/pickerview/build/intermediates/res/merged/androidTest/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/pickerview/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-v23/abc_control_background_material.xml"
+    }
+]

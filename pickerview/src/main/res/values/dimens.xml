@@ -1,0 +1,20 @@
+<resources>
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <!-- 顶部按钮marginLeft -->
+    <dimen name="pickerview_topbar_paddingleft">15dp</dimen>
+    <!-- 顶部按钮marginRight -->
+    <dimen name="pickerview_topbar_paddingright">15dp</dimen>
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">16dp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">18dp</dimen>
+
+    <dimen name="pickerview_border">1dp</dimen>
+    <dimen name="pickerview_switch_width">100dp</dimen>
+    <dimen name="pickerview_switch_height">35dp</dimen>
+    <dimen name="pickerview_switch_text_size">15dp</dimen>
+    <dimen name="pickerview_switch_radius">3dp</dimen>
+    <dimen name="pickerview_switch_text_radius">2dp</dimen>
+    <!-- 体重in单位，距离两边多少-->
+    <dimen name="pickerver_height_margin">80dp</dimen>
+</resources>

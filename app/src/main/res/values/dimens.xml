@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--title 布局的高度-->
+    <dimen name="title_height">50dp</dimen>
+    <!--title 标题的文字大小-->
+    <dimen name="title_textSize">22dp</dimen>
+    <!--通用边距-->
+    <!--<dimen name="margin_left0">10dp</dimen>-->
+    <!--<dimen name="margin_right0">10dp</dimen>-->
+    <!--<dimen name="margin_top0">15dp</dimen>-->
+    <!--<dimen name="margin_bottom0">15dp</dimen>-->
+    <!--名字与春梅定义的类似-->
+    <dimen name="margin_h1">8dp</dimen>
+    <dimen name="margin_h2">12dp</dimen>
+    <dimen name="margin_h3">16dp</dimen>
+    <dimen name="margin_h4">20dp</dimen>
+    <dimen name="margin_h5">24dp</dimen>
+    <dimen name="margin_h6">32dp</dimen>
+    <dimen name="margin_h7">4dp</dimen>
+
+
+</resources>

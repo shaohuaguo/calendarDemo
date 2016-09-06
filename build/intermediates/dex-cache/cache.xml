@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_a03f7dbc76eab0fa05161149132b5bd3c93da8f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8234a0542b358495589d8ff22415cbfbedb88a56">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0392af5cd3cf6566a15d8c0ee408a731b1d47b6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_ff398174858976494a87e8165acb578432820c8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_00e4543e67149301075574ef871c5c4e85216e8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.0_f423a29745f3f6d4a085ba5acde26ff981ecb447/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_f97c7591fc99aa8446fff0aeb6d21363d809b01b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_cf6743be23906cbbfa34f385db4b6eae4959d046/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_ab442433c67a5a279ca7c98061379e01ae5afaec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_26cf77c3cac995c4363253d3f3cc76e8b149f424/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_e46a479abacfffed45796525bab42dcc0daacae8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_e33244fd8cba6fc1d2ad2033f84413f95df35d52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_51cc73ed73752787f32ed9fc126ee7309dc5f223/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_8d71e5aacf3511c3c22d1ce5c56dbd0781f2a974/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_cf99ce4194c9a6d47450183632fec6262087b4fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_ed55997807243994b881555ac6fe59107e08efc6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.0_fa80890eb368b8e35ca7a5b5c73c80de5412683b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_7cfb9ca4c839a24faf45b5d0583f329fd3cc2c90/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_2e326645fad7501025e3d703ceeffcdfa8443d11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a1ee3a575d5554b2736e69d527b6e3dc72a48a9e">
+        <dex dex="/Users/damon/Documents/demo/source/AndroidStudio/myCalendar/calendar_demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fc8c8dbdb036e842e22fb9855939af562a9ee5a8/classes.dex" />
+    </item>
+
+</items>

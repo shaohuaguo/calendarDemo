@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--特殊文本字体-->
+    <color name="color_f9">#7F000000</color>
+
+    <!--日历中 "日" 数字的颜色 黑色-->
+    <color name="color_f2">#7F000000</color>
+
+    <color name="color_f6">#7F000000</color>
+    <!--日历中 "日" 数字的颜色和 "日" 上方的文字-->
+    <color name="color_f7">#4CC0C0C0</color>
+    <color name="color_c1">#FF7D48</color>
+
+    <color name="color_c3">#FFFFFF</color>
+    <color name="color_c2">#F4F4F4</color>
+    <!--分割线的颜色-->
+    <color name="color_border">#7FD8D8D8</color>
+    <!--c9的 alpha 60%-->
+    <color name="color_c9_1">#99FD9DC2</color>
+
+    <!--行经期颜色-->
+    <color name="color_mens">#FD9DC2</color>
+    <!--易孕期颜色-->
+    <color name="color_easy">#FF7D48</color>
+    <!--排卵日颜色-->
+    <color name="color_ovulation">#E64618</color>
+    <!--预测行经期颜色-->
+    <color name="color_mens0">#99FD9DC2</color>
+    <!--事件标注圆圈的颜色-->
+    <color name="color_event_sign">#FFC5AD</color>
+    <!--"日" 选中后的实心圆颜色-->
+    <color name="color_day_selected_solid">#FDF2E6</color>
+    <!--"日" 选中后的空心框颜色-->
+    <color name="color_day_selected_border">#FFC5AD</color>
+
+</resources>

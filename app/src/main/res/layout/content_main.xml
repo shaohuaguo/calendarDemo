@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--title 布局-->
+    <RelativeLayout
+        android:id="@+id/calendar_title_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/color_c3"
+        android:paddingLeft="@dimen/margin_h1"
+        android:paddingRight="@dimen/margin_h1">
+
+        <ImageView
+            android:id="@+id/title_back"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_back" />
+
+        <!--年月布局 比如: 2015年10月-->
+        <LinearLayout
+            android:id="@+id/calendar_title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/calendar_title_date"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="xxxx年xx月"
+                android:textColor="@color/selector_title_date_color"
+                android:textSize="18dp" />
+            <!--向下箭头按钮-->
+            <ImageView
+                android:id="@+id/calendar_title_down"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:background="@drawable/selector_down" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/calendar_title_help_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/margin_h1">
+        <!--问号按钮-->
+        <ImageView
+            android:id="@+id/calendar_title_help"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_help" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/calendar_title_today_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/calendar_title_help_rl">
+        <!--今天按钮-->
+        <ImageView
+            android:id="@+id/calendar_title_today"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_h2"
+
+            android:background="@drawable/selector_today" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/calendar_weak_l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendar_title_rl"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/calendar_week_ll"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/color_c3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sunday"
+                style="@style/calendar_title_week"
+                android:layout_weight="1"
+                android:text="@string/CSun" />
+
+            <TextView
+                android:id="@+id/monday"
+                style="@style/calendar_title_week"
+                android:layout_weight="1"
+                android:text="@string/CMon" />
+
+            <TextView
+                android:id="@+id/tuesday"
+                style="@style/calendar_title_week"
+                android:layout_weight="1"
+                android:text="@string/CTue" />
+
+            <TextView
+                android:id="@+id/wednesday"
+                style="@style/calendar_title_week"
+                android:layout_weight="1"
+                android:text="@string/CWed" />
+
+            <TextView
+                android:id="@+id/thursday"
+                style="@style/calendar_title_week"
+                android:layout_weight="1"
+                android:text="@string/CThur" />
+
+            <TextView
+                android:id="@+id/friday"
+                style="@style/calendar_title_week"
+                android:layout_weight="1"
+                android:text="@string/CFri" />
+
+            <TextView
+                android:id="@+id/saturday"
+                style="@style/calendar_title_week"
+                android:layout_weight="1"
+                android:text="@string/CSat" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/week_border"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/shape_border_bg" />
+    </LinearLayout>
+
+    <com.gsh.calendar.widget.CollapseScrollView
+        android:id="@+id/collapse_scrollview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/calendar_weak_l"
+        android:background="@android:color/holo_purple">
+
+        <LinearLayout
+            android:id="@+id/scroll_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- 日历 月视图 -->
+            <com.gsh.calendar.widget.CalendarViewPager
+                android:id="@+id/collapse_scrollview_viewpager_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.gsh.calendar.widget.CalendarViewPager>
+
+
+            <RelativeLayout
+                android:id="@+id/collapse_scrollview_color_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/color_c2">
+
+                <ImageView
+                    android:id="@+id/collapse_scrollview_color_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="9dp"
+                    android:src="@drawable/calender_button_next" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+                        <!--月经期-->
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:background="@drawable/shape_circle_mens" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:gravity="center_vertical|left"
+                            android:singleLine="true"
+                            android:text="@string/mens_period"
+                            android:textColor="@color/color_f2"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+                        <!--易孕期-->
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:background="@drawable/shape_circle_easy" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:gravity="center_vertical|left"
+                            android:singleLine="true"
+                            android:text="@string/easy"
+                            android:textColor="@color/color_f2"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+                        <!--排卵日-->
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:background="@drawable/shape_circle_ovu" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:gravity="center_vertical|left"
+                            android:singleLine="true"
+                            android:text="@string/ovulation"
+                            android:textColor="@color/color_f2"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+                        <!--预测经期-->
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:background="@drawable/shape_circle_mens0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:gravity="center_vertical|left"
+                            android:singleLine="true"
+                            android:text="@string/mens_period_0"
+                            android:textColor="@color/color_f2"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <com.gsh.calendar.widget.InnerScrollView
+                android:id="@+id/collapse_scrollview_description"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:fillViewport="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1700dp"
+                    android:background="@android:color/holo_green_dark">
+
+                    <TextView
+                        android:id="@+id/temp"
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:layout_margin="20dp"
+                        android:background="@android:color/background_dark"
+                        android:gravity="top"
+                        android:text="自定义可滚动的内容"
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:layout_below="@id/temp"
+                        android:layout_margin="20dp"
+                        android:background="@android:color/holo_orange_dark" />
+                </RelativeLayout>
+            </com.gsh.calendar.widget.InnerScrollView>
+        </LinearLayout>
+
+        <com.gsh.calendar.widget.CalendarViewPager
+            android:id="@+id/collapse_scrollview_viewpager_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.gsh.calendar.widget.CalendarViewPager>
+    </com.gsh.calendar.widget.CollapseScrollView>
+
+    <RelativeLayout
+        android:id="@+id/calendar_title_arrow_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/calendar_title_help_rl"
+        android:layout_alignRight="@id/calendar_title_help_rl"
+        android:layout_below="@id/calendar_title_help_rl"
+        android:layout_marginTop="-5dp"
+        android:visibility="gone">
+        <!--帮助按钮下方的小三角-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/calender_help_icon_sanjiao" />
+    </RelativeLayout>
+
+    <!--问号按钮 点击后显示的内容-->
+    <TextView
+        android:id="@+id/calendar_help_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendar_title_arrow_up"
+        android:background="@color/color_c1"
+        android:gravity="left"
+        android:padding="@dimen/margin_h1"
+        android:text="@string/calendar_help_content"
+        android:textColor="@color/color_c3"
+        android:textSize="16dp"
+        android:visibility="gone" />
+</RelativeLayout>

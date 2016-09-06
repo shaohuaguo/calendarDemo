@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Lemon_Shaohua</string>
+    <string name="today">今天</string>
+    <string name="action_settings">Settings</string>
+    <string name="month1">1月</string>
+    <string name="month2">2月</string>
+    <string name="month3">3月</string>
+    <string name="month4">4月</string>
+    <string name="month5">5月</string>
+    <string name="month6">6月</string>
+    <string name="month7">7月</string>
+    <string name="month8">8月</string>
+    <string name="month9">9月</string>
+    <string name="month10">10月</string>
+    <string name="month11">11月</string>
+    <string name="month12">12月</string>
+    <string name="CSun">"日"</string>
+    <string name="CMon">"一"</string>
+    <string name="CTue">"二"</string>
+    <string name="CWed">"三"</string>
+    <string name="CThur">"四"</string>
+    <string name="CFri">"五"</string>
+    <string name="CSat">"六"</string>
+    <string name="year">"年"</string>
+    <string name="mens_period">"小张"</string>
+    <string name="easy">"小李"</string>
+    <string name="ovulation">"小王"</string>
+    <string name="mens_period_0">"小赵"</string>
+    <string name="calendar_help_content">"刚从厨房出来去楼下买菜，一男的问我用的什么香水，身上那么香？我说“王守义十三香！”"</string>
+
+    <string name="year_moth">"年月"</string>
+
+</resources>
