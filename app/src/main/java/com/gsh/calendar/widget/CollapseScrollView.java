@@ -17,6 +17,7 @@ import android.view.animation.LinearInterpolator;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.Scroller;
 
 
@@ -1263,6 +1264,7 @@ public class CollapseScrollView extends FrameLayout implements View.OnClickListe
             int duration = getDuration(Math.abs(y));
             upScroller2.startScroll(0, y, 0, -y, duration);
             post(scrollRunnable2);
+            descriptionLayout.fullScroll(ScrollView.FOCUS_UP);
         }
 
         updateTodayState();
